@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/krrw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://krrw.github.io
+  * I am krrw (https://keybase.io/krrw) on keybase.
+  * I have a public key with fingerprint 06A3 9457 D07F 55CE 3ABE  88D9 02AF 3CD9 1A54 7A7C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ce9d5933197e4bbc050118125193bf70c4a62e04a457251fc4106f83bd38f0fa0a",
+      "fingerprint": "06a39457d07f55ce3abe88d902af3cd91a547a7c",
+      "host": "keybase.io",
+      "key_id": "02af3cd91a547a7c",
+      "kid": "0101ce9d5933197e4bbc050118125193bf70c4a62e04a457251fc4106f83bd38f0fa0a",
+      "uid": "68bca16e2b265f5009a84ded8dd33019",
+      "username": "krrw"
+    },
+    "service": {
+      "hostname": "krrw.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1714096481,
+  "expire_in": 157680000,
+  "prev": "21ce5c673ea19cc69ffe524250815181e7cefaa613218ff4875c0b08ac50434c",
+  "seqno": 81,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJdSBRRGF3NLN1E0UoIM5nSkkTvnZk7P/vQQz/0IGhuQoTCeufOnd1h
+t511ZnbVTDTLqOghIhTJEKMf0EKFfEgpKxQtX8QEIV8qy+gHfIiIgqiZLAh67b5c
+7vedc77zHe5ExhpPetKzIf+O2OCb3KSZR51xj7Y7DTcziqE2Mb5mJkx/XTSiUssO
+hHWV8TEAAkiorCKZ46AsUl5RCEAAQgmyCMqcoomA8FhgKeAxj0SnqBEeAkGTOEXl
+JA1oGGCmhNH0aJCaMVOP2q6sgDnZgatA1BAilMMKlSRVBizWOKLKECNexCJxiCHD
+chmOOQVbtFQ3nJrzCKza+xf/n33Hf8kJkkIwFCirsALSEAAylniVqpKqchyAsgu0
+qBnFx6jr1TQbmJYSxqkkdELdUN0t/uqWBnU7FFdWt4mZhm0QI+L0QrYds3wu126K
+ueAGqgR+ywQUPao6KTqMBDUt3YgyPuggia27ulCEPJAFXoIlDG2M6SYN6C4CiYIE
+nOPOoQlHknWCQUQQOYqhTIggaxpFLM8iIEHk5ENFQjWMBcixUNI0XhIRAQqQMEGA
+53g3Y4vWRw3G546ycdDRtPRgFNtxkzItjx/WpniS0j2pa5Pd7+VJT8v68+leHV3v
+aX/1fQLe2l92dnhmPiljT45csNm/8WXb5xuR8nWJ6S94Dm3alVVTW5XdPp46Ne0l
+qWRJntE7rLqizG7/6PWtIxX65OTwpWZPcf9z34f8Cydz6moLKnsLD25uysheWOnL
+Hzg03Evz9ua27gan5c7Xp9bfW/7WvbI0NNb3Zcp77Pts0ZNPwcS28uqO+SNXKk+0
+XQz628fvHA5w2+dS+4WULSnTVz+e95ZzeVUl1YtvMl8kd81fG6jPrSzOf9Jq7YMj
+i4MwuSzT++NdZKQn7cGm/q+zr8PhngNLg3d3NPYs35/pOn75/M632z49XYnffH9u
+g7+mu6JwbMEcnQiZy7ffpp/5CUFsOF8=
+=v0zB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/krrw
+
+==================================================================
