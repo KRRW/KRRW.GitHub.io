@@ -2,4 +2,4 @@ title: Khayri R.R. Woulfe — Write. Create. Play.
 description: Author. Writer. Researcher.
 rss-description: News Feed
 theme: jekyll-theme-minimal
-include [".well-known"]
+include: [".well-known"]
