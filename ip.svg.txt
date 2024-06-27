@@ -2,4 +2,4 @@
 layout: null
 ---
 
-Last Update: {{ site.date | date: "%c" }}
+Last Update: {%  last_modified_at %}
