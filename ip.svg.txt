@@ -2,5 +2,5 @@
 layout: null
 ---
 
-Yesterday: {{ 'now' | date: "%c" }}
+Yesterday: {{ site.time | date_to_xmlschema }}
 
