@@ -2,4 +2,4 @@
 layout: null
 ---
 
-{{ site.date }}
+{{ site.date | date: "%c" }}
