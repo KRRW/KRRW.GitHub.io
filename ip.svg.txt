@@ -1,5 +1,5 @@
 ---
 layout: null
 ---
-
-Last Update: {%  last_modified_at %}
+{{ 'yesterday' | date: "%c" }}
+Last Update: {{ page.last_modified_at }}
