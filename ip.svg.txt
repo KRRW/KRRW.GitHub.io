@@ -3,4 +3,4 @@ layout: null
 ---
 
 Yesterday: {{ 'now' | date: "%c" }}
-Last Update: {{ page.last_modified_at }}
+
