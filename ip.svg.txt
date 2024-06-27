@@ -1,5 +1,5 @@
 ---
 layout: null
-permalink: /ip.svg
 ---
+Hmmmm
 {{ request.headers }}
