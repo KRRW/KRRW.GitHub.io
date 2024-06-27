@@ -1,5 +1,6 @@
 title: Khayri R.R. Woulfe — Write. Create. Play.
 description: Author. Writer. Researcher.
+update: {{ date: "%Y-%m-%d }}
 domain: krrw.github.io
 cname: krrw.line.pm
 rss-description: News Feed
