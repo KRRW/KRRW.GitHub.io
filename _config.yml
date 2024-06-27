@@ -6,3 +6,11 @@ cname: krrw.line.pm
 rss-description: News Feed
 theme: jekyll-theme-minimal
 include: [.well-known]
+
+
+plugins:
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%Y-%m-%d %H:%s:%i %A'
