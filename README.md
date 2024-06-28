@@ -1,6 +1,4 @@
----
-layout: null
----
+
 
 The source repository for <a href="https://krrw.github.io">KRRW.GitHub.io</a> website.
 
