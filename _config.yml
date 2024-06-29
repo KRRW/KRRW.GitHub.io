@@ -1,8 +1,8 @@
 title: Khayri R.R. Woulfe
 tagline: Write. Create. Play.
 description: Author. Writer. Researcher.
-update:
+layouts_dir: _layouts
 domain: krrw.github.io
 rss-description: News Feed
-include: [.well-known,.,-,_]
+include: [.well-known]
 
