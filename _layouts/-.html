@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-<title>{{ page.title | default: site.title }} | {{ 'now' | date: "%Y-%m%-d" }}</title>
+<title>{% if page.title %}{{ page.title }}{% endif %} | {{ site.title }} | {{ 'now' | date: "%Y-%m%-d" }}</title>
     
   </head>
   <body>
