@@ -4,6 +4,5 @@ description: Author. Writer. Researcher.
 update:
 domain: krrw.github.io
 rss-description: News Feed
-theme: jekyll-theme-minimal
 include: [.well-known,.,-,_]
 
