@@ -1,16 +1,9 @@
-title: Khayri R.R. Woulfe — Write. Create. Play.
+title: Khayri R.R. Woulfe
+tagline: Write. Create. Play.
 description: Author. Writer. Researcher.
 update:
 domain: krrw.github.io
-cname: krrw.line.pm
 rss-description: News Feed
 theme: jekyll-theme-minimal
-include: [.well-known]
+include: [.well-known,.,-,_]
 
-
-plugins:
-  - jekyll-last-modified-at
-
-# Optional. The default date format, used if none is specified in  the tag.
-last-modified-at:
-    date-format: '%Y-%m-%d %H:%s:%i %A'
