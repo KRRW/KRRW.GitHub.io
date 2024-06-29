@@ -6,12 +6,19 @@
   {% endif %} {{ site.title }} | {{ 'now' | date: "%Y-%m-%d" }}</title>
     
   </head>
-  <body>
-<h1>Khayri R.R. Woulfe</h1>
-{{ content }}
+<body>
+<div id="body">
+<div id="banner"></div>
+<header>
+  <div id="nameplate">
+<h1 id="title">{{ site.title }}</h1>
+    <h2 id="tagline">{{ site.tagline }}</h2>
+  </div>  
+</header>
+<main>{{ content }}</main>
 <footer>
 
 {% include_relative _FOOTER %}
 </footer>
-  </body>
+</div></body>
 </html>
