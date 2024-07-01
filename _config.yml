@@ -13,7 +13,9 @@ data_dir: DB
 includes_dir: _includes
 timezone: Asia/Manila
 domain: krrw.github.io
-rss-description: News Feed
-include: ["", ".", ".well-known", "_config.yml"]
+rss-description: https://krrw.github.io/posts
+include:
+  - ".well-known"
+  - "_config.yml"
 ######
 
