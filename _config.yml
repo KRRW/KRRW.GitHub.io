@@ -11,6 +11,8 @@ description: Author. Writer. Researcher.
 layouts_dir: _layouts
 data_dir: DB
 includes_dir: _includes
+pages_dir: ""
+posts_dir: _posts
 timezone: Asia/Manila
 domain: krrw.github.io
 rss-description: https://krrw.github.io/posts
@@ -18,4 +20,5 @@ include: ["_config.yml"]
 ######
 plugins:
   - jemoji
-
+  - kramdown
+  - seo
