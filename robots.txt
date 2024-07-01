@@ -3,4 +3,7 @@ layout: null
 ---
 User-agent: *
 Disallow: /null/
+{% for item in site.pages %}
+Allow: {{ item.path }}
+{ %endfor %}
 Sitemap: https://{{ site.domain }}/feed.xml
