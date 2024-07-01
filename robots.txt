@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-# {{ 'now' | date: "%B %d, %Y %H:%i:%s" }}
+# {{ 'now' | date: "%A, %B %d, %Y %h:%l:%m %p %Z" }}
 User-agent: *
 Disallow: /null/
 {% for p in site.pages %}Allow: {{ p.url }}
