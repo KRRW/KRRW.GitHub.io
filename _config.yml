@@ -7,13 +7,14 @@ social:
 #######
 description: Author. Writer. Researcher.
 layouts_dir: _layouts
-data_dir: ""
+data_dir: DB
 includes_dir: _includes
 timezone: Asia/Manila
 domain: krrw.github.io
 rss-description: News Feed
-include: ["",".",".well-known","_config.yml"]
+include: ["", ".", ".well-known", "_config.yml"]
 ######
 plugins:
   - jemoji
+  - seo
 
