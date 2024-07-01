@@ -8,7 +8,10 @@ permalink: /config
 {% endhighlight %}
 <hr/>
 {% highlight json %}
-{% include_relative _config.yml | jsonify %}
+{% capture config %}
+{% include_relative _config.yml %}
+{% endcapture %}
+{{ config | jsonify }}
 {% endhighlight %}
 <hr/>
 {% highlight json %}
