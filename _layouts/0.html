@@ -4,7 +4,8 @@
 <title>{% if page.title %}
   {{ page.title }} |
   {% endif %} {{ site.title }} | {{ 'now' | date: "%Y-%m-%d" }}</title>
-    
+
+{% include_relative METADATA %}
   </head>
 <body>
 <div id="body">
