@@ -16,7 +16,4 @@ domain: krrw.github.io
 rss-description: News Feed
 include: ["", ".", ".well-known", "_config.yml"]
 ######
-plugins:
-  - jemoji
-  - seo
 
