@@ -1,1 +1,1 @@
-gem jemoji
+gem 'jemoji'
