@@ -1,5 +1,10 @@
 title: Khayri R.R. Woulfe
 tagline: Write. Create. Play.
+#######
+social:
+  facebook: khayrirrw
+  youtube: khayrirrw
+######
 description: Author. Writer. Researcher.
 layouts_dir: _layouts
 data_dir: _data
