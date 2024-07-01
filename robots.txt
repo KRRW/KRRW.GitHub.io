@@ -6,6 +6,6 @@ User-agent: *
 Disallow: /null/
 {% for p in site.pages %}Allow: {{ p.url }}
 {% endfor %}
-{% for f in site.static_files %}Allow: {{ f.url }}
+{% for f in site.static_files %}Allow: {{ f.path }}
 {%endfor %}
 Sitemap: {{ site.url }}/feed.xml
