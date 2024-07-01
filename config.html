@@ -3,8 +3,9 @@ layout: 0
 permalink: /config
 ---
 {% seo %}
+<pre style="word-wrap:break-word">
 {% highlight json %}
-{{ site.data.xyz | jsonify }}
+{{ site.pages | jsonify }}
 {% endhighlight %}
 <hr/>
 {% highlight json %}
@@ -17,3 +18,4 @@ permalink: /config
 {% highlight json %}
 {{site.github | jsonify }}
 {% endhighlight %}
+</pre>
