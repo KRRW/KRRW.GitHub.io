@@ -1,6 +1,7 @@
 ---
 layout: 0
-permalink: /Khayri%20R.R.%20Woulfe
+permalink: /home
+timezone: Asia/Tokyo
 ---
 <!DOCTYPE html>
 <html lang='en'>
@@ -18,7 +19,7 @@ permalink: /Khayri%20R.R.%20Woulfe
    <h1>Khayri R.R. Woulfe</h1> 
    <h3>Write. Create. Play.</h3>
 </a> 
-{% assign epoch = 'now' | date: "%s" | split: "" | reverse | join: "" %}
+{% assign epoch = 'now' | date_to_xmlschema %}
    {{ epoch }}
    
 <details>
