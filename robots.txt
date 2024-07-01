@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-# {{ 'now' | date: "" | date_to_xmlschema }}
+# {{ 'now' | date: "%B %d, %Y %H:%i:%s" }}
 User-agent: *
 Disallow: /null/
 {% for p in site.pages %}Allow: {{ p.url }}
