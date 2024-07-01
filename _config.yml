@@ -14,8 +14,6 @@ includes_dir: _includes
 timezone: Asia/Manila
 domain: krrw.github.io
 rss-description: https://krrw.github.io/posts
-include:
-  - ".well-known"
-  - "_config.yml"
+include: ["_config.yml"]
 ######
 
