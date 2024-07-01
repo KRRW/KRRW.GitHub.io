@@ -7,7 +7,7 @@ social:
 ######
 description: Author. Writer. Researcher.
 layouts_dir: _layouts
-data_dir: _data
+data_dir: db
 includes_dir: _includes
 plugins_dir: _plugins
 timezone: Asia/Manila
