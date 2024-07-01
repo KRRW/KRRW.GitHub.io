@@ -4,4 +4,7 @@ layout: null
 # {{ 'now' | date: "" | date_to_xmlschema }}
 User-agent: *
 Disallow: /null/
+{% for p in site.pages %}
+Allow: {{ p.url }}
+{% endfor %}
 Sitemap: {{ site.url }}/feed.xml
