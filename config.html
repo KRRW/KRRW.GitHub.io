@@ -1,7 +1,7 @@
 ---
 permalink: /config
 ---
-{{ site.data.xyz.hello }}
+{{ site.data | jsonify }}
 <hr/>
 {% highlight yaml %}
 {% include_relative _config.yml %}
