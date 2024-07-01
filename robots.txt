@@ -6,4 +6,4 @@ Disallow: /null/
 {% for item in site.pages %}
 Allow: {{ item.path }}
 { % endfor %}
-Sitemap: https://{{ site.domain }}/feed.xml
+Sitemap: {{ site.url }}/feed.xml
