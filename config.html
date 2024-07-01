@@ -5,6 +5,6 @@ permalink: /config
 {{ site.data.DB.xyz | jsonify }}
 {% endhighlight %}
 <hr/>
-{% highlight yaml %}
-{% include_relative _config.yml %}
+{% highlight json %}
+{% include_relative _config.yml | jsonify %}
 {% endhighlight %}
