@@ -9,9 +9,11 @@ description: Author. Writer. Researcher.
 layouts_dir: _layouts
 data_dir: ""
 includes_dir: _includes
-plugins_dir: _plugins
 timezone: Asia/Manila
 domain: krrw.github.io
 rss-description: News Feed
-include: [".well-known","_config.yml"]
+include: ["",".",".well-known","_config.yml"]
+######
+plugins:
+  - jemoji
 
