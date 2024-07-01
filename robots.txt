@@ -3,7 +3,7 @@ layout: null
 ---
 User-agent: *
 Disallow: /null/
-{% for item in site.pages %}
+{% for item in site.static_files %}
 Allow: {{ item.path }}
 { % endfor %}
 Sitemap: {{ site.url }}/feed.xml
