@@ -17,7 +17,10 @@ posts_dir: _posts
 timezone: Asia/Manila
 domain: krrw.github.io
 rss-description: https://krrw.github.io/posts
-include: ["_",".well-known","_config.yml"]
+include:
+  - ".well-known"
+  - "_posts"
+  - "_config.yml"
 ######
 plugins:
   - jemoji
