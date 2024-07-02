@@ -38,8 +38,6 @@ documents:
   - .odt
 # Rich Text Format 
   - .rtf
-# Scalable Vector Graphics 
-  - .svg
 # TeX/LaTeX 
   - .tex
 # Text 
@@ -78,6 +76,41 @@ documents:
   - .rss
   - .atom
   - .xsl
+  
+######
 
+images:
+  - .bmp
+  - .gif
+  - .jpg
+  - .jpeg
+  - .png
+  - .webp
+  - .svg
+  - .ico
 
+######
+
+videos:
+  - .3gp
+  - .3G2
+  - .asf
+  - .avi
+  - .divx
+  - .m2v
+  - .m3u
+  - .m3u8
+  - .m4v
+  - .mkv
+  - .mov
+  - .mp4
+  - .mpeg
+  - .ogv
+  - .gvt
+  - .ram
+  - .rm
+  - .vob
+  - .webm
+  - .wmv
+  - .xap
 
