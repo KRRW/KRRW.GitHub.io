@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /.well-known/webfinger
+---
+{% include_relative /.well-known/webfinger %}
