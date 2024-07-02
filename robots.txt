@@ -19,6 +19,6 @@ User-agent: Googlebot-Images
 {% endfor %}
 
 User-agent: Googlebot-Video
-{% for v in site.data.crawlable.vidoes %}Allow: /*{{ v }}$
+{% for v in site.data.crawlable.videos %}Allow: /*{{ v }}$
 {% endfor %}
 Sitemap: {{ site.url }}/feed.xml
