@@ -2,3 +2,4 @@
 permalink: /.well-known/webfinger
 layout: null
 ---
+{{ site.data.webfinger | jsonify }}
