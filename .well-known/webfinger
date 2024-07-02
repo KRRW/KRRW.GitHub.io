@@ -1,6 +1,1 @@
----
-layout: null
-permalink: /.well-known/webfinger
----
-
 {"subject":"acct:krrw@krrw.github.io","aliases":["https://krrw.github.io","https://krrw.github.io/krrw"],"links":[{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://krrw.github.io/krrw"},{"rel":"self","type":"application/activity+json","href":"https://krrw.github.io/webfinger.json"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://krrw.github.io/authorize_interaction?uri={uri}"},{"rel":"http://webfinger.net/rel/avatar","type":"image/png","href":"https://https://github.com/krrw.png"}]}
