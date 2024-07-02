@@ -1,46 +1,29 @@
-documents:
-# Adobe Portable Document Format 
+documents: 
   - .pdf
-# Adobe PostScript 
   - .ps
-# Comma-Separated Values
   - .csv
-# Electronic Publication 
   - .epub
-# Google Earth 
   - .kml
   - .kmz
-# GPS eXchange Format 
   - .gpx
-# Hancom Hanword 
-  - .hwp
-# HTML 
+  - .html
   - .htm
   - .html
   - .xhtml
   - .php
   - .md
-  - .markdown
-# Microsoft Excel 
+  - .markdown 
   - .xls
   - .xlsx
-# Microsoft PowerPoint 
   - .ppt
   - .pptx
-# Microsoft Word 
   - .doc
   - .docx
-# OpenOffice presentation 
-  - .odp
-# OpenOffice spreadsheet 
+  - .odp 
   - .ods
-# OpenOffice text 
   - .odt
-# Rich Text Format 
   - .rtf
-# TeX/LaTeX 
   - .tex
-# Text 
   - .txt
   - .text
   - .js
@@ -51,34 +34,24 @@ documents:
   - .yml
   - .url
   - .vcf
-# Basic source code 
   - .bas
-# C/C++ source code 
   - .c
   - .cc
   - .cpp
   - .cxx
   - .h
-  - .hpp
-# Csharp source code 
+  - .hpp 
   - .cs
-# Java source code 
   - .java
-# Perl source code 
   - .pl
-# Python source code 
   - .py
-# Wireless Markup Language 
   - .wml
   - .wap
-# XML
   - .xml
   - .rss
   - .atom
   - .xsl
   
-######
-
 images:
   - .bmp
   - .gif
@@ -88,8 +61,6 @@ images:
   - .webp
   - .svg
   - .ico
-
-######
 
 videos:
   - .3gp
