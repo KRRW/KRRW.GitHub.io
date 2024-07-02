@@ -3,10 +3,10 @@ documents:
   - .pdf
 # Adobe PostScript 
   - .ps
-# Comma-Separated Values 
--  .csv
+# Comma-Separated Values
+  - .csv
 # Electronic Publication 
- - .epub
+  - .epub
 # Google Earth 
   - .kml
   - .kmz
