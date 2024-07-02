@@ -1,0 +1,83 @@
+documents:
+# Adobe Portable Document Format 
+  - .pdf
+# Adobe PostScript 
+  - .ps
+# Comma-Separated Values 
+-  .csv
+# Electronic Publication 
+ - .epub
+# Google Earth 
+  - .kml
+  - .kmz
+# GPS eXchange Format 
+  - .gpx
+# Hancom Hanword 
+  - .hwp
+# HTML 
+  - .htm
+  - .html
+  - .xhtml
+  - .php
+  - .md
+  - .markdown
+# Microsoft Excel 
+  - .xls
+  - .xlsx
+# Microsoft PowerPoint 
+  - .ppt
+  - .pptx
+# Microsoft Word 
+  - .doc
+  - .docx
+# OpenOffice presentation 
+  - .odp
+# OpenOffice spreadsheet 
+  - .ods
+# OpenOffice text 
+  - .odt
+# Rich Text Format 
+  - .rtf
+# Scalable Vector Graphics 
+  - .svg
+# TeX/LaTeX 
+  - .tex
+# Text 
+  - .txt
+  - .text
+  - .js
+  - .json
+  - .css
+  - .sass
+  - .scss
+  - .yml
+  - .url
+  - .vcf
+# Basic source code 
+  - .bas
+# C/C++ source code 
+  - .c
+  - .cc
+  - .cpp
+  - .cxx
+  - .h
+  - .hpp
+# Csharp source code 
+  - .cs
+# Java source code 
+  - .java
+# Perl source code 
+  - .pl
+# Python source code 
+  - .py
+# Wireless Markup Language 
+  - .wml
+  - .wap
+# XML
+  - .xml
+  - .rss
+  - .atom
+  - .xsl
+
+
+
