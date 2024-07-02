@@ -1,12 +1,16 @@
 ---
 layout: null
 ---
-# {{ 'now' | date: "%A, %B %d, %Y, %I:%M:%S%p %Z" }}
-# {{ site.time | date: "%A, %B %d, %Y, %I:%M:%S%p %Z" }}
+# {{ 'now' | date: "%A, %B %d, %Y, %I:%M:%S.%3N%p %Z" }}
+# {{ site.time | date: "%A, %B %d, %Y, %I:%M:%S.%3N%p %Z" }}
+
 User-agent: *
 Disallow: /null/
 {% for p in site.pages %}Allow: {{ p.url }}
 {% endfor %}
 {% for f in site.static_files %}Allow: {{ f.path }}
 {%endfor %}
+User-agent: Googlebot
+{% for d in site.data.crawlable.documents %}Allow: /*{{ d }}$
+{% endfor %}
 Sitemap: {{ site.url }}/feed.xml
