@@ -13,4 +13,12 @@ Disallow: /null/
 User-agent: Googlebot
 {% for d in site.data.crawlable.documents %}Allow: /*{{ d }}$
 {% endfor %}
+
+User-agent: Googlebot-Images
+{% for i in site.data.crawlable.images %}Allow: /*{{ i }}$
+{% endfor %}
+
+User-agent: Googlebot-Video
+{% for v in site.data.crawlable.vidoes %}Allow: /*{{ v }}$
+{% endfor %}
 Sitemap: {{ site.url }}/feed.xml
